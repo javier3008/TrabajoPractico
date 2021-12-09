@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>otro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../../../css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="../../../css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="../../../css/css.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="wrapper fadeInDown">
+            <div id="formContent">
+
+                <div class="fadeIn first">
+                    <img src="../../../img/usuario.jpg" id="icon" alt="User Icon" />
+                </div>
+
+                <form action="../../../menu.html" method="POST" name="formulario" id="formulario" onsubmit="return validar()">
+                    <div class="col-auto">
+                        <input type="text" id="nombre" class="form-control" name="Nombre" placeholder="nombre">
+                        <input type="password" class="form-control " id="apellido" name="apellido" placeholder="Contraseña" >
+                    </div>
+                    <div class="col-auto">
+                    <input type="submit" class="fadeIn fourth" value="Enviar">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        
+        
+        
+        <script src="js/login.js" type="text/javascript"></script>
+        <script src="../../../js/jquery.js" type="text/javascript"></script>
+        <script src="../../../js/jquery.min.js" type="text/javascript"></script>
+
+
+    </body>
+</html>

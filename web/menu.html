@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>MENU</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/css.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+    <center>
+        <a href="archivos/frm/login/login.html"></a>
+        <form action="dividir.html" method="post" name="fromu2" id="formu2" onsubmit="return dividir()">
+            <input type="submit" value="dividir">
+        </form> 
+        <form action="archivos/frm/login/login.html" method="post" name="fromu4" id="formu4">
+            <input type="submit" value="volver">
+        </form> 
+    </center>
+
+    <script>
+        $("#botonSalir").on('cliock', function () {
+            localtion.href = "archivos/frm/login/login.html";
+        });
+
+        $("#botonDividir").on('cliock', function () {
+            localtion.href = "Dividir.html";
+        });
+    </script>
+    <script src="js/jquery.js" type="text/javascript"></script>
+</body>
+</html>
